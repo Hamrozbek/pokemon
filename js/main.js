@@ -79,7 +79,6 @@ function handleBtnClick(id) {
 
     elModalInner.innerHTML = `
     <div class="bg-white relative rounded-xl shadow-[0_4px_10px_rgba(0,0,0,1)] p-[20px] max-w-[500px] h-[450px] mx-auto">
-      <button onclick="elModalWrapper.classList.add('hidden')" class="absolute top-4 right-4 text-gray-700 hover:text-red-600 text-xl">×</button>
       <div class="flex flex-col items-center text-center">
         <div class="flex justify-between w-[440px]">
           <p class="text-[17px] text-[#000000] font-bold">${findeObj.height}</p>
