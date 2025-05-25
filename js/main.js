@@ -78,7 +78,7 @@ function handleBtnClick(id) {
     let findeObj = pokemons.find(item => item.id == id);
 
     elModalInner.innerHTML = `
-    <div class="bg-white relative rounded-xl shadow-[0_4px_10px_rgba(0,0,0,1)] p-[20px] max-w-[500px] mx-auto">
+    <div class="bg-white relative rounded-xl shadow-[0_4px_10px_rgba(0,0,0,1)] p-[20px] max-w-[500px] h-[450px] mx-auto">
       <button onclick="elModalWrapper.classList.add('hidden')" class="absolute top-4 right-4 text-gray-700 hover:text-red-600 text-xl">×</button>
       <div class="flex flex-col items-center text-center">
         <div class="flex justify-between w-[440px]">
@@ -107,8 +107,8 @@ function handleBtnClick(id) {
           </div>
         </div>
 
-        <p class="font-bold text-[17px] pt-[50px]">Stats</p>
-        <div class="w-[460px] flex flex-wrap gap-[10px] justify-center pt-[10px] pb-[30px]">
+        <p class="font-bold text-[17px] pt-[70px]">Stats</p>
+        <div class="w-[460px] flex flex-wrap gap-[10px] justify-center pt-[20px]">
           ${getStatsHtml(findeObj)}
         </div>
       </div>
