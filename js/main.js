@@ -107,7 +107,7 @@ function handleBtnClick(id) {
         </div>
 
         <p class="font-bold text-[17px] pt-[70px]">Stats</p>
-        <div class="w-[460px] flex flex-wrap gap-[10px] justify-center pt-[20px]">
+        <div class="w-[460px] flex flex-wrap gap-[15px] justify-center p-[10px]">
           ${getStatsHtml(findeObj)}
         </div>
       </div>
