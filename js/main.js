@@ -78,15 +78,15 @@ function handleBtnClick(id) {
     let findeObj = pokemons.find(item => item.id == id);
 
     elModalInner.innerHTML = `
-    <div class="bg-white relative rounded-xl shadow-[0_4px_10px_rgba(0,0,0,1)] p-[20px] max-w-[500px] h-[450px] mx-auto">
+    <div class="bg-white relative rounded-[10px] p-[20px] max-w-[500px] h-[530px] mx-auto">
       <div class="flex flex-col items-center text-center">
         <div class="flex justify-between w-[440px]">
           <p class="text-[17px] text-[#000000] font-bold">${findeObj.height}</p>
           <p class="text-[17px] text-[#000000] font-bold">${findeObj.weight}</p>
         </div>
 
-        <img class="w-40 h-40 object-contain mt-[-150px]" src="${findeObj.img}" alt="${findeObj.name}" />
-        <h2 class="font-semibold flex flex-col text-gray-500">#${findeObj.id}
+        <img class="w-40 h-40 object-contain mt-[-140px]" src="${findeObj.img}" alt="${findeObj.name}" />
+        <h2 class="font-semibold flex flex-col text-gray-500 pt-[30px]">#${findeObj.id}
           <span class="text-[#000000] font-bold text-[20px]">${findeObj.name}</span>
         </h2>
 
