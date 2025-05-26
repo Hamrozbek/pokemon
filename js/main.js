@@ -81,8 +81,8 @@ function handleBtnClick(id) {
     <div class="bg-white relative rounded-[10px] p-[20px] max-w-[500px] h-[530px] mx-auto">
       <div class="flex flex-col items-center text-center">
         <div class="flex justify-between w-[440px]">
-          <p class="text-[17px] text-[#000000] font-bold">${findeObj.height}</p>
-          <p class="text-[17px] text-[#000000] font-bold">${findeObj.weight}</p>
+          <p class="text-[17px] text-[#000000] font-bold py-[4px] px-[6px] bg-gray-200 rounded-[5px] border-[1px] border-gray-300">${findeObj.height}</p>
+          <p class="text-[17px] text-[#000000] font-bold py-[4px] px-[6px] bg-gray-200 rounded-[5px] border-[1px] border-gray-300">${findeObj.weight}</p>
         </div>
 
         <img class="w-40 h-40 object-contain mt-[-140px]" src="${findeObj.img}" alt="${findeObj.name}" />
